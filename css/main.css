@@ -13,66 +13,64 @@ img {
   min-width: 100%;
 }
 
-body{
+body {
   border-top: 25px solid #ffffff;
   font-family: 'Raleway', sans-serif;
 }
 
-.container{
+.container {
   float: right;
 }
 
-.border-bottom{
+.border-bottom {
   height: 100%;
-  padding-left: 0px;
+  padding-left: 0;
   padding-bottom: 5px;
   border-bottom: 3px solid #7d97ad;
 }
 
-.header-pics, .header-words{
-  padding-left: 0px;
+.header-pics, .header-words {
+  padding-left: 0;
 }
 
-.main-pic{
-  padding-left: 0px;
-  padding-right: 0px;
+.main-pic {
+  padding-left: 0;
+  padding-right: 0;
   padding-top: 20px;
 }
 
-.nopadding{
-  padding:0px;
+.nopadding {
+  padding: 0px;
 }
 
-.no-pad-left{
-  padding-left: 0px;
+.no-pad-left {
+  padding-left: 0;
 }
 
-.no-pad-right{
-  padding-right: 0px;
+.no-pad-right {
+  padding-right: 0;
 }
 
-.featured-title{
+.featured-title {
   padding-top: 20px;
   padding-left: 5px;
   color: #7d97ad;
 }
 
-.col-xs-6{
-  padding-left: 0px;
+.col-xs-6 {
+  padding-left: 0;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
   .header-words h1 {
-    font-size:25px;
+    font-size: 25px;
   }
   .header-words h3 {
     font-size: 16px;
   }
-  .app-text{
+  .app-text {
     font-size: 16px;
     font-weight: bold;
   }
-  .link{
-    display:none;
-  }
+
 }
