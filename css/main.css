@@ -1,8 +1,8 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 img {
@@ -14,8 +14,8 @@ img {
 }
 
 body {
-  border-top: 25px solid #ffffff;
-  font-family: 'Raleway', sans-serif;
+  border-top: 25px solid #fff;
+  font-family: "Raleway", sans-serif;
 }
 
 .container {
@@ -29,18 +29,17 @@ body {
   border-bottom: 3px solid #7d97ad;
 }
 
-.header-pics, .header-words {
+.header-pics,
+.header-words {
   padding-left: 0;
 }
 
 .main-pic {
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 20px;
+  padding: 20px 0 0 0;
 }
 
 .nopadding {
-  padding: 0px;
+  padding: 0;
 }
 
 .no-pad-left {
@@ -62,12 +61,15 @@ body {
 }
 
 @media screen and (max-width:600px) {
+
   .header-words h1 {
     font-size: 25px;
   }
+
   .header-words h3 {
     font-size: 16px;
   }
+
   .app-text {
     font-size: 16px;
     font-weight: bold;
